@@ -8,3 +8,4 @@ seaborn==0.13.0
 statsmodels==0.14.0
 XlsxWriter==3.1.9
 varclushi==0.1.0
+shap==0.43.0
