@@ -1,0 +1,9 @@
+https://pandas.pydata.org/docs/whatsnew/v2.0.0.html#removal-of-prior-version-deprecations-changes
+- Removed deprecated Series.append(), DataFrame.append(), use concat() instead (GH 35407)
+
+https://stackoverflow.com/questions/76090979/xlsxwriter-object-has-no-attribute-save-did-you-mean-save
+- The save() method has been deprecated and removed in Pandas. You should use close() instead.
+
+https://stackoverflow.com/questions/74893742/how-to-solve-attributeerror-module-numpy-has-no-attribute-bool
+- np.bool was a deprecated alias for the builtin bool. To avoid this error in existing code, use bool by itself.
+
